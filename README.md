@@ -92,6 +92,19 @@ leave, *why* they leave, and *what the business should do* about each segment.
 
 ---
 
+## SQL Analysis
+
+Wrote 6 SQL queries on the churn dataset using SQLite in Python, covering basic to advanced concepts:
+
+| Query | Concepts Used |
+|-------|--------------|
+| Churn rate by contract type | GROUP BY, AVG, ORDER BY |
+| High value customers at risk | WHERE with multiple conditions |
+| Revenue at risk by internet service | HAVING, CASE WHEN, SUM |
+| Customer segmentation in SQL | Subquery, CASE WHEN |
+| Rank churners by CLTV per contract | Window function — RANK(), PARTITION BY |
+| Churn analysis by tenure group | Window function — SUM() OVER |
+
 ## Tech Stack
 
 - **Python** — Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
