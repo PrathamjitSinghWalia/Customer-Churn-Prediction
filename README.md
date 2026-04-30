@@ -66,14 +66,17 @@ leave, *why* they leave, and *what the business should do* about each segment.
 
 ## Project Structure
 
-├── churn_project2.ipynb     # Main notebook (EDA, modeling, SQL, segmentation)
-├── app.py                   # Streamlit web application
-├── churn_model.pkl          # Trained XGBoost model
-├── threshold.pkl            # Optimized classification threshold (0.55)
-├── scaler.pkl               # Fitted StandardScaler
-├── scale_cols.pkl           # Columns to scale
-├── Telco_customer_churn.csv # Dataset (7,043 customers, 33 features)
-└── requirements.txt         # Python dependencies
+| File | Description |
+|------|-------------|
+| `churn_project2.ipynb` | Main notebook — EDA, modeling, SQL, segmentation |
+| `app.py` | Streamlit web application |
+| `churn_model.pkl` | Trained XGBoost model |
+| `threshold.pkl` | Optimized classification threshold (0.55) |
+| `scaler.pkl` | Fitted StandardScaler |
+| `scale_cols.pkl` | Columns to scale |
+| `Telco_customer_churn.csv` | Dataset (7,043 customers, 33 features) |
+| `requirements.txt` | Python dependencies |
+
 ---
 
 ## Notebook Contents
